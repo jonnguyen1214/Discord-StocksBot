@@ -16,7 +16,7 @@ public class ScrapeBot {
 	
 	public static void main(String[] args) throws LoginException {
 		
-		jda = new JDABuilder(AccountType.BOT).setToken("NjA4MTk4NTQ0MTg4MjQzOTY4.XUtulA.s9o4mP5Rym1KJf4pWTf8DTnPMUY").buildAsync();
+		jda = new JDABuilder(AccountType.BOT).setToken("").buildAsync();
 		jda.getPresence().setStatus(OnlineStatus.ONLINE);
 		jda.getPresence().setGame(Game.playing("Stonks"));	
 
